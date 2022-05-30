@@ -1,0 +1,7 @@
+- name: Ansible playbook to create all the Roboshop Project Jobs in Jenkins Server.
+  hosts: localhost
+  roles:
+    - jenkins-jobs
+  vars:
+    pipeline_jobs:
+      - { jobName: "sample3", folderName: "demo", repoName: "learning-jenkins"}
