@@ -9,4 +9,4 @@
     name: "{{item.folderName}}/{{item.jobName}}"
     password: admin
     user: admin
-    url: http://172.31.3.2:808
+    url: http://172.31.3.2:8080
