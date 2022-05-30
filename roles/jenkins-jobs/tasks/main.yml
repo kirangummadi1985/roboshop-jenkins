@@ -5,12 +5,12 @@
     password: admin
     user: admin
     url: http://172.31.3.2:8080
-    loop:
-      - demo
+  loop:
+    - demo
 
 - name: Create Pipeline Jobs
   include_role:
     name: jenkins-jobs
     tasks_from: pipeline-job
-    loop: "{{pipeline_jobs}}"
+  loop: "{{pipeline_jobs}}"
 
