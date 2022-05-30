@@ -7,3 +7,4 @@
       - demo
     pipeline_jobs:
       - { jobName: "sample3", folderName: "demo", repoName: "learning-jenkins"}
+      - { jobName: "sample3", folderName: "demo", repoName: "learning-something"}
