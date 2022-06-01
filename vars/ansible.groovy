@@ -48,7 +48,7 @@ def call() {
             stage('Create Instance') {
                 steps {
                     dir('ANSIBLE') {
-                        sh 'ec2InstanceCreate.create("${COMPONENT}", "${ENV}")'
+                        ec2InstanceCreate.create("${COMPONENT}", "${ENV}")
                     }
                 }
             }
