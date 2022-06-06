@@ -7,7 +7,7 @@ def call() {
         }
 
         parameters {
-            string(name: 'ENV', devaultValue: '', description: 'Which Environment?')
+            string(name: 'ENV', defaultValue: '', description: 'Which Environment?')
         }
 
         environment {
