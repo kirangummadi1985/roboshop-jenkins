@@ -14,4 +14,4 @@
       - { jobName: "frontend", folderName: "Infrastructure", repoName: "frontend-infra", fileName: "Jenkinsfile" }
       - { jobName: "payment", folderName: "Infrastructure", repoName: "payment-infra", fileName: "Jenkinsfile" }
       - { jobName: "shipping", folderName: "Infrastructure", repoName: "shipping-infra", fileName: "Jenkinsfile" }
-      - { jobName: "user", folderName: "Infrastructure", repoName: "user-infra", fileName: "Jenkinsfile" }
+      - { jobName: "DESTROY", folderName: "Infrastructure", repoName: "roboshop-jenkins", fileName: "Jenkinsfile-Destroy-Infra"}
