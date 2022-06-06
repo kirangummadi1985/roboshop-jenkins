@@ -7,4 +7,4 @@
       - APP-SETUP-WITH-ANSIBLE
       - Infrastructure
     pipeline_jobs:
-      - { jobName: "cart", folderName: "Infrastructure", repoName: "car-infra"}
+      - { jobName: "cart", folderName: "Infrastructure", repoName: "cart-infra"}
