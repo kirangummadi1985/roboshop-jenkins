@@ -7,4 +7,5 @@
       - APP-SETUP-WITH-ANSIBLE
       - Infrastructure
     pipeline_jobs:
-      - { jobName: "cart", folderName: "Infrastructure", repoName: "cart-infra"}
+      - { jobName: "roboshop", folderName: "APP-SETUP-WITH-ANSIBLE", repoName: "roboshop-ansible", fileName: "Jenkinsfile" }
+      - { jobName: "cart", folderName: "Infrastructure", repoName: "cart-infra", fileName: "Jenkinsfile" }
