@@ -23,7 +23,7 @@ def call() {
                 }
             }
 
-            satge('Terraform Apply') {
+            stage('Terraform Apply') {
                 steps {
                     sh ''' 
                        terraform init -var-file=env-${ENV}/${ENV}.tfvars
